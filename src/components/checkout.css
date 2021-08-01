@@ -1,0 +1,27 @@
+.checkout_add {
+  width: 95%;
+  margin-bottom: 10px;
+  height: 244px;
+  object-fit: revert;
+}
+.checkout {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.checkout_title {
+  margin-right: 101px;
+  padding: 10px;
+  border-bottom: 2px solid lightgray;
+}
+@media only screen and (max-width: 800px) {
+  .checkout {
+    display: block;
+    /* margin-left: 10px; */
+  }
+  .checkout_add {
+    margin: auto;
+  }
+}

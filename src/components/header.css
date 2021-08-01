@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Quicksand&family=Ubuntu:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Quicksand&family=Titillium+Web:ital,wght@1,200&family=Ubuntu:ital,wght@1,300&display=swap");
+.header {
+  height: 60px;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  cursor: pointer;
+  margin: 18px 20px 0 20px;
+}
+.header_location {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 10px;
+  /* align-items: center; */
+  font-family: "Ubuntu", sans-serif;
+}
+.header_map {
+  height: 15px !important;
+  /* padding: 2px !important; */
+  position: relative;
+  left: 5px;
+  top: 3px;
+}
+.header_hello {
+  position: relative;
+  left: 28px;
+  /* font-size: 16px !important; */
+}
+/* .all_option {
+  height: 35px;
+  width: 48px;
+  background-color: #f3f3f3;
+  padding: -10px 10px;
+  padding: -2px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+} */
+/* .amzone_all {
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 5px;
+  font-size: 15px;
+} */
+.header-select {
+  outline: none !important;
+  width: 48px;
+  border: none;
+  height: 40px;
+  background-color: #f3f3f3;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-family: "Ubuntu", sans-serif;
+}
+.header-select:focus {
+  border: 3px solid #cd9042;
+}
+.header_search {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  border-radius: 24px;
+}
+.header_searchInput {
+  height: 18px !important;
+  padding: 20px;
+  border: none;
+  width: 100%;
+}
+.header_searchInput:focus {
+  outline: none;
+}
+.header_searchIcon {
+  padding: 4px;
+  background-color: #cd9042;
+  height: 40px !important;
+  width: 34px !important;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Ubuntu", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
+}
+.header_options {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  color: white;
+}
+.header_optionOneline {
+  font-size: 10px;
+}
+.header_optionTwoline {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header_cart {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.header_cartCount {
+  /* margin: 0 10px; */
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header_search {
+    display: none;
+  }
+  .all_option {
+    display: none;
+  }
+}
